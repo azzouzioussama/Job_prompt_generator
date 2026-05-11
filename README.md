@@ -1,41 +1,38 @@
 # Job Prompt Generator
 
-A tool for generating job-related prompts and descriptions for various positions and roles.
+A React-based prompt generator for building tailored job application prompts and cover letters for IT support positions.
+
+## Overview
+
+This repository contains the main UI component `App.jsx`, which accepts a job description and generates combined prompts for:
+
+- CV rewrite in LaTeX format
+- Short French cover letters
+
+The app provides clipboard copy and download actions for generated prompts.
 
 ## Features
 
-- Generate customized job prompts
-- Support for multiple job categories
-- Easy-to-use interface
-- Flexible configuration options
-
-## Installation
-
-```bash
-git clone <repository-url>
-cd Job_prompt_generator
-pip install -r requirements.txt
-```
+- Paste a job description and generate tailored prompts
+- Extract a job title automatically from the description
+- Copy generated text to clipboard
+- Download prompt output as a `.txt` file
+- Simple French UI for job preparation
 
 ## Usage
 
-```bash
-python job_prompt_generator.py
-```
+This repository currently includes the React component only. To run it locally:
 
-## Configuration
+1. Create a React app or add this file to an existing React project.
+2. Install dependencies such as `react`, `react-dom`, and `lucide-react`.
+3. Import `App.jsx` into your app entry point.
+4. Start your React development server.
 
-Edit the configuration file to customize prompts, categories, and output formats.
+## Notes
 
-## Requirements
-
-- Python 3.7+
-- Dependencies listed in `requirements.txt`
+- The current code is a UI component and does not include a full project setup.
+- If you want to run this project directly, add a `package.json` and build configuration (for example, Vite or Create React App).
 
 ## License
 
 This project is licensed under the MIT License.
-
-## Contact
-
-For questions or support, please contact the helpdesk team.
